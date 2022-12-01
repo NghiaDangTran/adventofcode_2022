@@ -19,6 +19,6 @@ for i in data:
         tempmax+=int(j)
     currMax.append(tempmax)
 currMax.sort(reverse=True)
-print(currMax[0:3])
-print(67633+ 66296+ 65699)
+print(currMax[0])
+print(currMax[0]+currMax[1]+currMax[2])
 
